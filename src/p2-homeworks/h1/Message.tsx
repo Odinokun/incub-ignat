@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 import s from './Message.module.css'
 
 type PropsType = {
@@ -8,7 +8,7 @@ type PropsType = {
   time: string,
 }
 
-function Message(props: PropsType) {
+export const Message: FC<PropsType> = (props) => {
   return (
     <div className={s.message}>
       <div className={s.message__avatar}>
@@ -22,5 +22,3 @@ function Message(props: PropsType) {
     </div>
   )
 }
-
-export default Message

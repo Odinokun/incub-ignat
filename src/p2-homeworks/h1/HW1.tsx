@@ -1,7 +1,7 @@
 import React from 'react';
-import Message from './Message';
+import {Message} from './Message';
 
-let messageData = {
+const messageData = {
   avatar: 'https://source.unsplash.com/800x800/?people,man',
   name: 'Some Name',
   message: 'some textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome textsome text some',
