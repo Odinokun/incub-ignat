@@ -1,3 +1,5 @@
-.someClass {
-
+.affairSpan {
+  display: inline-block;
+  min-width: 80px;
+  padding-left: 8px;
 }
