@@ -10,9 +10,9 @@ function App() {
   return (
     <div className={s.App}>
       <h1 className='title'>react homeworks:</h1>
-      <HW1/>
-      <HW2/>
       <HW3/>
+      <HW2/>
+      <HW1/>
       {/*<HW4/>*/}
       {/*<HW5/>*/}
 
